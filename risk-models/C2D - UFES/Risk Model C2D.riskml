@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskML:RiskProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:riskML="http://www.example.org/riskML">
+  <Situations Value="Inadequate or nonexistent documentation " Expose="//@Events.0" Id="Situation1"/>
+  <Situations Value="Low vocabulary referencing" Expose="//@Events.1" Id="Situation2"/>
+  <Situations Value="Deprecated vocabulary" Expose="//@Events.2" Id="Situation3"/>
+  <Situations Value="Unavailability publisher" Expose="//@Events.3" Id="Situation4"/>
+  <Events Value="No proper documentation sufficient or available" Impact="//@Goals.0" Id="Event1"/>
+  <Events Value="Reduced popularity" Impact="//@Goals.1" Id="Event2"/>
+  <Events Value="Non-existent representation" Impact="//@Goals.2" Id="Event3"/>
+  <Events Value="No proficient publisher available" Impact="//@Goals.3" Id="Event4"/>
+  <Goals Value="Use documented and self-descriptive vocabularies" Id="Goal1"/>
+  <Goals Value="Use known vocabularies" Id="Goal2"/>
+  <Goals Value="Use active vocabularies" Id="Goal3"/>
+  <Goals Value="Obtain maintenance from publisher" Id="Goal4"/>
+</riskML:RiskProject>

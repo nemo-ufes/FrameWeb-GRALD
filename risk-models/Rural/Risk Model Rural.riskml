@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskML:RiskProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:riskML="http://www.example.org/riskML">
+  <Situations Value="Infrastructure problem" Expose="//@Events.0"/>
+  <Situations Value="Wrong location" Expose="//@Events.1"/>
+  <Situations Value="Nonexistent documentation" Expose="//@Events.3"/>
+  <Situations Value="High bug number" Expose="//@Events.2"/>
+  <Situations Value="Low testability and stability" Expose="//@Events.2"/>
+  <Situations Value="Low analysability" Expose="//@Events.4"/>
+  <Situations Value="Low changeability" Expose="//@Events.4"/>
+  <Events Value="Inaccessible site" Impact="//@Goals.0"/>
+  <Events Value="Wrong latitudes and longitudes" Impact="//@Goals.1"/>
+  <Events Value="Reduced software quality" Impact="//@Goals.2"/>
+  <Events Value="No documentation available" Impact="//@Goals.2"/>
+  <Events Value="Reduced modifiability" Impact="//@Goals.3 //@Goals.4"/>
+  <Goals Value="Access to RDF always available"/>
+  <Goals Value="Precisely published locations"/>
+  <Goals Value="Use mature and documented software"/>
+  <Goals Value="Get software updated"/>
+  <Goals Value="Obtein Inovation From Linked Data"/>
+</riskML:RiskProject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskML:RiskProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:riskML="http://www.example.org/riskML">
+  <Situations Value="Inadequate or nonexistent documentation" Expose="//@Events.0" Id="Situation1"/>
+  <Situations Value="URI in non-compliance with best practices" Expose="//@Events.1" Id="Situation2"/>
+  <Situations Value="Vocabulary description with only one language" Expose="//@Events.2" Id="Situation3"/>
+  <Situations Value="Vocabulary with proprietary license" Expose="//@Events.3" Id="Situation4"/>
+  <Events Value="Not provide enough or available documentation" Impact="//@Goals.0" Id="Event1"/>
+  <Events Value="Not provide URI in accordance the best practices" Impact="//@Goals.1" Id="Event2"/>
+  <Events Value="Not provide multilingual vocabulary description" Impact="//@Goals.2" Id="Event3"/>
+  <Events Value="Not provide open license" Impact="//@Goals.3" Id="Event4"/>
+  <Goals Value="Provide vocabulary documented and self-descritive" Id="Goal1"/>
+  <Goals Value="Use cool URI" Id="Goal2"/>
+  <Goals Value="Create multilingual vocabulary" Id="Goal3"/>
+  <Goals Value="Use open license for the vocabulary" Id="Goal4"/>
+</riskML:RiskProject>

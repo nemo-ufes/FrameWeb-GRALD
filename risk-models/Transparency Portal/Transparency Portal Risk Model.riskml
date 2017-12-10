@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskML:RiskProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:riskML="http://www.example.org/riskML">
+  <Situations Value="Poor data filtering" Expose="//@Events.0" Id="Situation1"/>
+  <Situations Value="Inadequate published data" Expose="//@Events.1 //@Events.2" Id="Situation2"/>
+  <Situations Value="Inconsistent or nonexistent documentation" Expose="//@Events.2" Id="Situation3"/>
+  <Events Value="Access to restricted data" Impact="//@Goals.0" Id="Event1"/>
+  <Events Value="Information not comprehensible" Impact="//@Goals.1" Id="Event2"/>
+  <Events Value="No proper documentation sufficient or available" Impact="//@Goals.2" Id="Event3"/>
+  <Goals Value="Publish data securely" Id="Goal1"/>
+  <Goals Value="Keep society aware of expenses" Id="Goal2"/>
+  <Goals Value="Use documented and self-descriptive vocabularies" Id="Goal3"/>
+</riskML:RiskProject>

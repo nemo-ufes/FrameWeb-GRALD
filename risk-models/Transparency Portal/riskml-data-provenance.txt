@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "id": "193c9f53-5b1b-41a2-a621-8533f3242707",
+      "text": "",
+      "type": "riskml.Category",
+      "x": 376,
+      "y": 15,
+      "nodes": [
+        {
+          "id": "aca2f97f-a666-4ba8-a181-23cbcd5665dc",
+          "text": "Provide details about the data origin",
+          "type": "riskml.Goal",
+          "x": 401,
+          "y": 63
+        },
+        {
+          "id": "ee302f41-793b-41d6-b017-2661cf14b02b",
+          "text": "Ensure the provenance of the data",
+          "type": "riskml.Goal",
+          "x": 404,
+          "y": 170
+        },
+        {
+          "id": "9e5e01ef-eb0b-49d8-b026-d5b152802358",
+          "text": "Provide credibility and data integrity",
+          "type": "riskml.Goal",
+          "x": 403,
+          "y": 275
+        },
+        {
+          "id": "a840d298-05ac-450c-8703-b23fa0308af1",
+          "text": "Data published without provenance metadata",
+          "type": "riskml.Event",
+          "x": 585,
+          "y": 99
+        },
+        {
+          "id": "5bbc844b-b2e2-4dc5-a099-4486ea731265",
+          "text": "RDF generated without the properties of provenances",
+          "type": "riskml.Situation",
+          "x": 863,
+          "y": 131
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "15c3cd92-e678-4c98-9622-87c130a51de6",
+      "type": "riskml.ExposeLink",
+      "source": "5bbc844b-b2e2-4dc5-a099-4486ea731265",
+      "target": "a840d298-05ac-450c-8703-b23fa0308af1"
+    },
+    {
+      "id": "5402612f-2fbc-4f42-b8dc-37bfbb7f04ea",
+      "type": "riskml.ImpactLink",
+      "source": "a840d298-05ac-450c-8703-b23fa0308af1",
+      "target": "aca2f97f-a666-4ba8-a181-23cbcd5665dc"
+    },
+    {
+      "id": "aa33a077-34bb-42e6-bf7f-5dcd03f3523a",
+      "type": "riskml.ImpactLink",
+      "source": "a840d298-05ac-450c-8703-b23fa0308af1",
+      "target": "ee302f41-793b-41d6-b017-2661cf14b02b"
+    },
+    {
+      "id": "dd51b738-34cc-480e-aca2-1caeae87ee8d",
+      "type": "riskml.ImpactLink",
+      "source": "a840d298-05ac-450c-8703-b23fa0308af1",
+      "target": "9e5e01ef-eb0b-49d8-b026-d5b152802358"
+    }
+  ],
+  "display": {},
+  "tool": "riskml.1.0.1",
+  "riskml": "1.0",
+  "saveDate": "Wed, 21 Nov 2018 18:53:48 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

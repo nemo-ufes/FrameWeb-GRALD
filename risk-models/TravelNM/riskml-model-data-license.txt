@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "id": "b6980ffd-98b8-436a-a0c7-387a1000726c",
+      "text": "",
+      "type": "riskml.Category",
+      "x": 334,
+      "y": 8,
+      "nodes": [
+        {
+          "id": "859976c8-ae21-472d-b9bb-d70b5180b9e6",
+          "text": "Provide data license information",
+          "type": "riskml.Goal",
+          "x": 351,
+          "y": 51
+        },
+        {
+          "id": "a503938c-d749-4a93-b183-76b7540313a5",
+          "text": "Provide human-readable license",
+          "type": "riskml.Goal",
+          "x": 350,
+          "y": 157
+        },
+        {
+          "id": "ef11e5eb-9eac-482f-9ef9-d8327780deb1",
+          "text": "Provide machi -ne-readable license",
+          "type": "riskml.Goal",
+          "x": 350,
+          "y": 265
+        },
+        {
+          "id": "94fa834e-1440-4f88-a08c-54a4f50df1dd",
+          "text": "License data not provided",
+          "type": "riskml.Event",
+          "x": 542,
+          "y": 105
+        },
+        {
+          "id": "e7c33dd5-25e6-485b-8209-28459f87db2f",
+          "text": "RDF generated without license properties",
+          "type": "riskml.Situation",
+          "x": 821,
+          "y": 57
+        },
+        {
+          "id": "12b7fa09-4e3d-41ab-9d82-1d7f6e92663c",
+          "text": "Page with license not provided",
+          "type": "riskml.Situation",
+          "x": 819,
+          "y": 237
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "e9d03b57-e29d-4a87-aea0-b9c80fa8fa10",
+      "type": "riskml.ExposeLink",
+      "source": "e7c33dd5-25e6-485b-8209-28459f87db2f",
+      "target": "94fa834e-1440-4f88-a08c-54a4f50df1dd"
+    },
+    {
+      "id": "779bf93a-6f95-4d06-a6dd-78fdd3dbf98d",
+      "type": "riskml.ExposeLink",
+      "source": "12b7fa09-4e3d-41ab-9d82-1d7f6e92663c",
+      "target": "94fa834e-1440-4f88-a08c-54a4f50df1dd"
+    },
+    {
+      "id": "1c99076c-c4ea-4cf6-be8d-3ccc6762530f",
+      "type": "riskml.ImpactLink",
+      "source": "94fa834e-1440-4f88-a08c-54a4f50df1dd",
+      "target": "859976c8-ae21-472d-b9bb-d70b5180b9e6"
+    },
+    {
+      "id": "6bd4282c-e680-4df3-8890-adbee697be51",
+      "type": "riskml.ImpactLink",
+      "source": "94fa834e-1440-4f88-a08c-54a4f50df1dd",
+      "target": "a503938c-d749-4a93-b183-76b7540313a5"
+    },
+    {
+      "id": "f366a1d5-8410-41b7-a257-9efce5111933",
+      "type": "riskml.ImpactLink",
+      "source": "94fa834e-1440-4f88-a08c-54a4f50df1dd",
+      "target": "ef11e5eb-9eac-482f-9ef9-d8327780deb1"
+    }
+  ],
+  "display": {
+    "1c99076c-c4ea-4cf6-be8d-3ccc6762530f": {
+      "vertices": [
+        {
+          "x": 617,
+          "y": 169
+        }
+      ]
+    }
+  },
+  "tool": "riskml.1.0.1",
+  "riskml": "1.0",
+  "saveDate": "Wed, 21 Nov 2018 02:07:06 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

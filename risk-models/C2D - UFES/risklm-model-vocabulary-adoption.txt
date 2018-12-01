@@ -1,0 +1,238 @@
+{
+  "categories": [
+    {
+      "id": "f3bd1dc7-b54e-4828-b89b-fa7cb4f2bd7c",
+      "text": "",
+      "type": "riskml.Category",
+      "x": 208,
+      "y": 20,
+      "nodes": [
+        {
+          "id": "222f563b-7101-4fac-8c26-3cb72351c0ba",
+          "text": "Use doc. and selfdescriptive vocabularies",
+          "type": "riskml.Goal",
+          "x": 254,
+          "y": 78
+        },
+        {
+          "id": "578b8b22-6200-40b9-9388-4e0bbcb80c6b",
+          "text": "No proper docu -mentation available or sufficient",
+          "type": "riskml.Event",
+          "x": 479,
+          "y": 7
+        },
+        {
+          "id": "e59c67be-e176-42ef-9a28-c91ba698f40e",
+          "text": "Inadequate or nonexistent docu -mentation",
+          "type": "riskml.Situation",
+          "x": 780,
+          "y": 47
+        },
+        {
+          "id": "e9a256e1-2011-4570-b594-5beb7df7d4d4",
+          "text": "Use known vocabularies",
+          "type": "riskml.Goal",
+          "x": 256,
+          "y": 204
+        },
+        {
+          "id": "0901bd01-1225-4e27-b9f9-5ecce88d881a",
+          "text": "Reduced popularity",
+          "type": "riskml.Event",
+          "x": 476,
+          "y": 155
+        },
+        {
+          "id": "69cfce80-7617-4125-8a63-7135d622e106",
+          "text": "Low vocabulary referencing",
+          "type": "riskml.Situation",
+          "x": 783,
+          "y": 194
+        },
+        {
+          "id": "7944b291-5f9a-44b3-a718-b135b9bded32",
+          "text": "Use active vocabularies",
+          "type": "riskml.Goal",
+          "x": 254,
+          "y": 317
+        },
+        {
+          "id": "dc64b13a-bb59-4440-a92d-41c16e794c3b",
+          "text": "Nonexistent representation",
+          "type": "riskml.Event",
+          "x": 476,
+          "y": 267
+        },
+        {
+          "id": "d1a2afcc-7a9c-4651-a60a-1884390e6cb2",
+          "text": "Deprecated vocabulary",
+          "type": "riskml.Situation",
+          "x": 785,
+          "y": 302
+        },
+        {
+          "id": "71d5e217-b9ff-4c33-8bd9-235ce5af37e4",
+          "text": "Obtain maintenance from publisher",
+          "type": "riskml.Goal",
+          "x": 258,
+          "y": 443
+        },
+        {
+          "id": "229d661d-3128-40a5-9993-d2ded9b5f1f7",
+          "text": "No proficient publisher available",
+          "type": "riskml.Event",
+          "x": 475,
+          "y": 388
+        },
+        {
+          "id": "8dee1b8a-b298-429a-b10b-831306677d9c",
+          "text": "Unavailability of publisher",
+          "type": "riskml.Situation",
+          "x": 784,
+          "y": 426
+        },
+        {
+          "id": "be32b617-60dc-47c4-84c1-94a7ef0134ea",
+          "text": "Use multilingual vocabulary",
+          "type": "riskml.Goal",
+          "x": 259,
+          "y": 558
+        },
+        {
+          "id": "aac6101f-ae05-4723-8015-85cad9b13fe6",
+          "text": "Multilingual vocabulary not provided",
+          "type": "riskml.Event",
+          "x": 475,
+          "y": 502
+        },
+        {
+          "id": "7dd36b5d-446c-4dc3-a064-d935aa35faf1",
+          "text": "Vocabulary with only one language",
+          "type": "riskml.Situation",
+          "x": 786,
+          "y": 537
+        },
+        {
+          "id": "9c39b504-2973-4988-8ec6-5d9af3c138a5",
+          "text": "Use open license for the vocabulary",
+          "type": "riskml.Goal",
+          "x": 262,
+          "y": 686
+        },
+        {
+          "id": "6a577bde-4062-4c30-ac42-1a5b7641b792",
+          "text": "Open license not provided",
+          "type": "riskml.Event",
+          "x": 478,
+          "y": 636
+        },
+        {
+          "id": "b23ea586-4978-474f-baec-68c3ebc333be",
+          "text": "Vocabulary with proprietary license",
+          "type": "riskml.Situation",
+          "x": 788,
+          "y": 663
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "8bf242f6-c1c6-4f1a-9d35-053e8425b734",
+      "type": "riskml.ImpactLink",
+      "source": "578b8b22-6200-40b9-9388-4e0bbcb80c6b",
+      "target": "222f563b-7101-4fac-8c26-3cb72351c0ba"
+    },
+    {
+      "id": "bb174890-0870-40d2-b22f-324850450076",
+      "type": "riskml.ImpactLink",
+      "source": "0901bd01-1225-4e27-b9f9-5ecce88d881a",
+      "target": "e9a256e1-2011-4570-b594-5beb7df7d4d4"
+    },
+    {
+      "id": "ddd958fa-2581-4f3b-af60-9168a048ac06",
+      "type": "riskml.ImpactLink",
+      "source": "dc64b13a-bb59-4440-a92d-41c16e794c3b",
+      "target": "7944b291-5f9a-44b3-a718-b135b9bded32"
+    },
+    {
+      "id": "a89bf5e1-91b9-4faf-b4e8-89acd73489b5",
+      "type": "riskml.ExposeLink",
+      "source": "d1a2afcc-7a9c-4651-a60a-1884390e6cb2",
+      "target": "dc64b13a-bb59-4440-a92d-41c16e794c3b"
+    },
+    {
+      "id": "0e037908-a102-4276-9f85-3034b9bd007e",
+      "type": "riskml.ExposeLink",
+      "source": "e59c67be-e176-42ef-9a28-c91ba698f40e",
+      "target": "578b8b22-6200-40b9-9388-4e0bbcb80c6b"
+    },
+    {
+      "id": "25cb8916-8bcf-42d8-b823-8dc9ae198c63",
+      "type": "riskml.ImpactLink",
+      "source": "229d661d-3128-40a5-9993-d2ded9b5f1f7",
+      "target": "71d5e217-b9ff-4c33-8bd9-235ce5af37e4"
+    },
+    {
+      "id": "ceebc710-c42d-4267-9dc5-fa069778a57e",
+      "type": "riskml.ExposeLink",
+      "source": "8dee1b8a-b298-429a-b10b-831306677d9c",
+      "target": "229d661d-3128-40a5-9993-d2ded9b5f1f7"
+    },
+    {
+      "id": "7a543fbb-c7b9-4958-afd0-b8c14a2ce5f3",
+      "type": "riskml.ExposeLink",
+      "source": "7dd36b5d-446c-4dc3-a064-d935aa35faf1",
+      "target": "aac6101f-ae05-4723-8015-85cad9b13fe6"
+    },
+    {
+      "id": "c02d4c0d-ab21-4dc4-8e3e-ca76d1eb9a28",
+      "type": "riskml.ImpactLink",
+      "source": "aac6101f-ae05-4723-8015-85cad9b13fe6",
+      "target": "be32b617-60dc-47c4-84c1-94a7ef0134ea"
+    },
+    {
+      "id": "e958f48c-a76a-427b-b987-2c5f80732efa",
+      "type": "riskml.ImpactLink",
+      "source": "6a577bde-4062-4c30-ac42-1a5b7641b792",
+      "target": "9c39b504-2973-4988-8ec6-5d9af3c138a5"
+    },
+    {
+      "id": "5b5bd3c6-4f7f-481d-8eec-8aa26b9d478d",
+      "type": "riskml.ExposeLink",
+      "source": "b23ea586-4978-474f-baec-68c3ebc333be",
+      "target": "6a577bde-4062-4c30-ac42-1a5b7641b792"
+    },
+    {
+      "id": "2bc29e0c-3db7-437b-a7c9-a8dd9aede784",
+      "type": "riskml.ExposeLink",
+      "source": "69cfce80-7617-4125-8a63-7135d622e106",
+      "target": "0901bd01-1225-4e27-b9f9-5ecce88d881a"
+    }
+  ],
+  "display": {
+    "5b5bd3c6-4f7f-481d-8eec-8aa26b9d478d": {
+      "vertices": [
+        {
+          "x": 784,
+          "y": 714
+        }
+      ]
+    },
+    "2bc29e0c-3db7-437b-a7c9-a8dd9aede784": {
+      "vertices": [
+        {
+          "x": 780,
+          "y": 234
+        }
+      ]
+    }
+  },
+  "tool": "riskml.1.0.1",
+  "riskml": "1.0",
+  "saveDate": "Mon, 19 Nov 2018 02:22:25 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

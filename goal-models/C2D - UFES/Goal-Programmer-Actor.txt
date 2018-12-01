@@ -1,0 +1,137 @@
+{
+  "actors": [
+    {
+      "id": "3589ee55-603d-41ee-8bf1-2b2a54498def",
+      "text": "Programmer",
+      "type": "istar.Actor",
+      "x": 218,
+      "y": 92,
+      "nodes": [
+        {
+          "id": "8d716a61-1ca4-44f4-934c-26166ea44d11",
+          "text": "Generate RDF",
+          "type": "istar.Task",
+          "x": 361,
+          "y": 183
+        },
+        {
+          "id": "a560a99e-a6ab-4ef6-a612-3130f3b74865",
+          "text": "D2RQ",
+          "type": "istar.Resource",
+          "x": 367,
+          "y": 101
+        },
+        {
+          "id": "217d69f4-5f7a-46a5-9638-2a1a72620837",
+          "text": "Chosse vocabulary",
+          "type": "istar.Task",
+          "x": 509,
+          "y": 151
+        },
+        {
+          "id": "ec34cb4f-cfef-4467-b492-349d916ba51d",
+          "text": "LOV",
+          "type": "istar.Resource",
+          "x": 658,
+          "y": 151
+        },
+        {
+          "id": "2ad2bcb3-b7ed-4b3c-af95-29f1c47b46c2",
+          "text": "RDF provied",
+          "type": "istar.Goal",
+          "x": 218,
+          "y": 185
+        },
+        {
+          "id": "4590a9fa-acda-4b14-aaef-9f9450c65929",
+          "text": "Content structured and processed by machines",
+          "type": "istar.Quality",
+          "x": 293,
+          "y": 273
+        },
+        {
+          "id": "dc521308-aa48-42be-b5fd-6eed870db51f",
+          "text": "Easier access to data",
+          "type": "istar.Quality",
+          "x": 427,
+          "y": 276
+        },
+        {
+          "id": "e7c40ca2-e8a1-42b0-8712-d9a216bdfabf",
+          "text": "Encode Web Information System",
+          "type": "istar.Task",
+          "x": 510,
+          "y": 226
+        },
+        {
+          "id": "812f1942-0745-4fdc-8110-3ff0532fc2e2",
+          "text": "ReMaT",
+          "type": "istar.Resource",
+          "x": 656,
+          "y": 229
+        }
+      ]
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "8c96dcda-fd86-4dc2-a269-ee6654c6c3a7",
+      "type": "istar.NeededByLink",
+      "source": "a560a99e-a6ab-4ef6-a612-3130f3b74865",
+      "target": "8d716a61-1ca4-44f4-934c-26166ea44d11"
+    },
+    {
+      "id": "b9500cf1-59cf-4a09-be48-1f637a82a287",
+      "type": "istar.NeededByLink",
+      "source": "ec34cb4f-cfef-4467-b492-349d916ba51d",
+      "target": "217d69f4-5f7a-46a5-9638-2a1a72620837"
+    },
+    {
+      "id": "e3c2b0cc-e61f-4084-90ca-77be63146fb7",
+      "type": "istar.ContributionLink",
+      "source": "8d716a61-1ca4-44f4-934c-26166ea44d11",
+      "target": "4590a9fa-acda-4b14-aaef-9f9450c65929",
+      "label": "help"
+    },
+    {
+      "id": "927430d7-1a0e-43f9-9951-59fdaf836f41",
+      "type": "istar.ContributionLink",
+      "source": "8d716a61-1ca4-44f4-934c-26166ea44d11",
+      "target": "dc521308-aa48-42be-b5fd-6eed870db51f",
+      "label": "help"
+    },
+    {
+      "id": "e2e7ae23-7fb0-403f-9af3-8d932d627e28",
+      "type": "istar.NeededByLink",
+      "source": "812f1942-0745-4fdc-8110-3ff0532fc2e2",
+      "target": "e7c40ca2-e8a1-42b0-8712-d9a216bdfabf"
+    },
+    {
+      "id": "663a24ec-9e1b-49ca-8ec4-fe06081ee1e4",
+      "type": "istar.AndRefinementLink",
+      "source": "217d69f4-5f7a-46a5-9638-2a1a72620837",
+      "target": "8d716a61-1ca4-44f4-934c-26166ea44d11"
+    },
+    {
+      "id": "ce919039-da1d-45a7-b7a2-1e1bea9e2975",
+      "type": "istar.AndRefinementLink",
+      "source": "e7c40ca2-e8a1-42b0-8712-d9a216bdfabf",
+      "target": "8d716a61-1ca4-44f4-934c-26166ea44d11"
+    },
+    {
+      "id": "954a6ba5-527c-4390-9859-ff8e410c85d6",
+      "type": "istar.OrRefinementLink",
+      "source": "8d716a61-1ca4-44f4-934c-26166ea44d11",
+      "target": "2ad2bcb3-b7ed-4b3c-af95-29f1c47b46c2"
+    }
+  ],
+  "display": {},
+  "tool": "pistar.1.2.0",
+  "istar": "2.0",
+  "saveDate": "Fri, 25 May 2018 02:16:24 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

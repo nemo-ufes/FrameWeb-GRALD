@@ -1,0 +1,262 @@
+{
+  "actors": [
+    {
+      "id": "59f64401-d0d5-4ceb-9d19-7603c166de1c",
+      "text": "Manage Investment",
+      "type": "istar.Actor",
+      "x": 57,
+      "y": 30,
+      "nodes": [
+        {
+          "id": "50fb547f-9f5a-4b90-91de-7c75dd3a477a",
+          "text": "Payments published in LD",
+          "type": "istar.Goal",
+          "x": 219,
+          "y": 97
+        },
+        {
+          "id": "349e022a-5bbf-4b52-88af-3c6a3f18ca43",
+          "text": "Manage payment",
+          "type": "istar.Task",
+          "x": 73,
+          "y": 98
+        },
+        {
+          "id": "e54a0f9d-9f15-4b55-9372-2daf81040736",
+          "text": "Manage public agency",
+          "type": "istar.Task",
+          "x": 72,
+          "y": 147
+        },
+        {
+          "id": "a1393f4b-fd4f-4dd6-bb92-a25a161ef92e",
+          "text": "Manage expense element",
+          "type": "istar.Task",
+          "x": 69,
+          "y": 198
+        },
+        {
+          "id": "5d09d341-fece-4b6d-881d-2f2337777390",
+          "text": "Manage expense subElement",
+          "type": "istar.Task",
+          "x": 69,
+          "y": 248
+        },
+        {
+          "id": "88f14119-332d-467a-9a4c-83f467a3ff0d",
+          "text": "Manage Provider",
+          "type": "istar.Task",
+          "x": 68,
+          "y": 299
+        },
+        {
+          "id": "abab533e-b8c9-472e-9887-5f1110b55fd1",
+          "text": "Manage investment",
+          "type": "istar.Task",
+          "x": 68,
+          "y": 358
+        },
+        {
+          "id": "6feae6a2-62bb-41b6-9910-feedfa237742",
+          "text": "Public agency published in LD",
+          "type": "istar.Goal",
+          "x": 220,
+          "y": 150
+        },
+        {
+          "id": "e9c79b84-54f9-4533-9c5d-14b9dc734ef8",
+          "text": "Expenses published in LD",
+          "type": "istar.Goal",
+          "x": 215,
+          "y": 221
+        },
+        {
+          "id": "c1907263-a1fd-40d2-bc6c-cc27b18924a4",
+          "text": "Providers published in LD",
+          "type": "istar.Goal",
+          "x": 203,
+          "y": 300
+        },
+        {
+          "id": "f61774e7-a08a-428c-b0dd-4a9383df218e",
+          "text": "Investments published in LD",
+          "type": "istar.Goal",
+          "x": 204,
+          "y": 359
+        },
+        {
+          "id": "33153841-3f27-4234-9ab2-9e5f14411e94",
+          "text": "Government expenses published in LD",
+          "type": "istar.Goal",
+          "x": 392,
+          "y": 209
+        },
+        {
+          "id": "b3f98308-7d68-48a5-807c-d3311a9e5d0b",
+          "text": "Publish witth Frameweb - LD",
+          "type": "istar.Task",
+          "x": 532,
+          "y": 207
+        },
+        {
+          "id": "98ac5756-5367-43db-959d-e12e664b36c8",
+          "text": "Keep Transparency",
+          "type": "istar.Quality",
+          "x": 335,
+          "y": 73
+        },
+        {
+          "id": "37dfead3-d532-4004-9444-edbe7fb672b0",
+          "text": "Growth of social control",
+          "type": "istar.Quality",
+          "x": 468,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "id": "cfc2e03f-9e2c-4a76-8c4c-f4a939d694a3",
+      "text": "Transparency Portal",
+      "type": "istar.Actor",
+      "x": 777,
+      "y": 102,
+      "nodes": [
+        {
+          "id": "9b790674-8bc1-4d0a-9b40-6b4a2cdd5c54",
+          "text": "Open data for community",
+          "type": "istar.Goal",
+          "x": 836,
+          "y": 148
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "81d9d733-c8d0-4f08-a8d3-e18e3601a3e3",
+      "text": "Government data consumed",
+      "type": "istar.Goal",
+      "x": 655,
+      "y": 150,
+      "source": "cfc2e03f-9e2c-4a76-8c4c-f4a939d694a3",
+      "target": "b3f98308-7d68-48a5-807c-d3311a9e5d0b"
+    }
+  ],
+  "links": [
+    {
+      "id": "28fa7846-6c94-4ab6-912e-00eb1f37eeda",
+      "type": "istar.DependencyLink",
+      "source": "cfc2e03f-9e2c-4a76-8c4c-f4a939d694a3",
+      "target": "81d9d733-c8d0-4f08-a8d3-e18e3601a3e3"
+    },
+    {
+      "id": "0de5af88-8a93-4da7-beed-848a84840ca6",
+      "type": "istar.DependencyLink",
+      "source": "81d9d733-c8d0-4f08-a8d3-e18e3601a3e3",
+      "target": "b3f98308-7d68-48a5-807c-d3311a9e5d0b"
+    },
+    {
+      "id": "3ada6860-90f1-497b-9393-70fdc1dc02be",
+      "type": "istar.AndRefinementLink",
+      "source": "a1393f4b-fd4f-4dd6-bb92-a25a161ef92e",
+      "target": "e9c79b84-54f9-4533-9c5d-14b9dc734ef8"
+    },
+    {
+      "id": "0eedd6d6-bf2a-4fb3-828d-304c9225b463",
+      "type": "istar.AndRefinementLink",
+      "source": "5d09d341-fece-4b6d-881d-2f2337777390",
+      "target": "e9c79b84-54f9-4533-9c5d-14b9dc734ef8"
+    },
+    {
+      "id": "ed0af3ca-a854-407e-a46e-30de034d0500",
+      "type": "istar.OrRefinementLink",
+      "source": "349e022a-5bbf-4b52-88af-3c6a3f18ca43",
+      "target": "50fb547f-9f5a-4b90-91de-7c75dd3a477a"
+    },
+    {
+      "id": "6c4dcf96-8b5b-4e8c-b6a7-815418429916",
+      "type": "istar.OrRefinementLink",
+      "source": "e54a0f9d-9f15-4b55-9372-2daf81040736",
+      "target": "6feae6a2-62bb-41b6-9910-feedfa237742"
+    },
+    {
+      "id": "5fae826a-28ad-43d4-a314-9e4833ab1789",
+      "type": "istar.OrRefinementLink",
+      "source": "88f14119-332d-467a-9a4c-83f467a3ff0d",
+      "target": "c1907263-a1fd-40d2-bc6c-cc27b18924a4"
+    },
+    {
+      "id": "36d1f6bd-ae61-4c1d-81b0-3a6926ea8955",
+      "type": "istar.OrRefinementLink",
+      "source": "abab533e-b8c9-472e-9887-5f1110b55fd1",
+      "target": "f61774e7-a08a-428c-b0dd-4a9383df218e"
+    },
+    {
+      "id": "5811197e-ab87-4c4f-9ba3-45e2d1d1b373",
+      "type": "istar.AndRefinementLink",
+      "source": "50fb547f-9f5a-4b90-91de-7c75dd3a477a",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "dcc5547e-fc5d-4f25-ae40-1710eefcf3f7",
+      "type": "istar.AndRefinementLink",
+      "source": "6feae6a2-62bb-41b6-9910-feedfa237742",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "3a48692b-c043-46e9-a0b3-0f5c4735b861",
+      "type": "istar.AndRefinementLink",
+      "source": "e9c79b84-54f9-4533-9c5d-14b9dc734ef8",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "19048f77-6cb7-4336-8aa8-ca014ef5761b",
+      "type": "istar.AndRefinementLink",
+      "source": "c1907263-a1fd-40d2-bc6c-cc27b18924a4",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "2dd7b0d1-5f39-41cc-8e60-1f0756f73fc7",
+      "type": "istar.AndRefinementLink",
+      "source": "f61774e7-a08a-428c-b0dd-4a9383df218e",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "61874294-bcff-4a63-9053-7291b97873d3",
+      "type": "istar.AndRefinementLink",
+      "source": "b3f98308-7d68-48a5-807c-d3311a9e5d0b",
+      "target": "33153841-3f27-4234-9ab2-9e5f14411e94"
+    },
+    {
+      "id": "15d47105-ffb6-4383-8b2d-10356bd52b53",
+      "type": "istar.ContributionLink",
+      "source": "33153841-3f27-4234-9ab2-9e5f14411e94",
+      "target": "98ac5756-5367-43db-959d-e12e664b36c8",
+      "label": "help"
+    },
+    {
+      "id": "1c465056-1988-4c5a-b096-18a4a59c4d4b",
+      "type": "istar.ContributionLink",
+      "source": "33153841-3f27-4234-9ab2-9e5f14411e94",
+      "target": "37dfead3-d532-4004-9444-edbe7fb672b0",
+      "label": "help"
+    }
+  ],
+  "display": {
+    "2dd7b0d1-5f39-41cc-8e60-1f0756f73fc7": {
+      "vertices": [
+        {
+          "x": 338,
+          "y": 305
+        }
+      ]
+    }
+  },
+  "tool": "pistar.1.2.0",
+  "istar": "2.0",
+  "saveDate": "Sat, 07 Jul 2018 23:47:40 GMT",
+  "diagram": {
+    "width": 1980,
+    "height": 1172
+  }
+}

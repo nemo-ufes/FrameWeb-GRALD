@@ -1,0 +1,57 @@
+{
+  "actors": [
+    {
+      "id": "3589ee55-603d-41ee-8bf1-2b2a54498def",
+      "text": "Domain Expert",
+      "type": "istar.Actor",
+      "x": 346,
+      "y": 117,
+      "nodes": [
+        {
+          "id": "dbf8b83a-a180-4206-a07d-e63dc099c421",
+          "text": "Knowledge about domin provided",
+          "type": "istar.Goal",
+          "x": 385,
+          "y": 179
+        },
+        {
+          "id": "e8991c6a-1597-4b5d-a885-9d932f9b1b02",
+          "text": "Elicit Requirements",
+          "type": "istar.Task",
+          "x": 534,
+          "y": 139
+        },
+        {
+          "id": "5b388a0f-b13c-4d2c-86bb-6eef8019123b",
+          "text": "Elaborate CQ's questions",
+          "type": "istar.Task",
+          "x": 539,
+          "y": 209
+        }
+      ]
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "316a4831-e9c0-4c4e-a7e9-bcc102149721",
+      "type": "istar.AndRefinementLink",
+      "source": "e8991c6a-1597-4b5d-a885-9d932f9b1b02",
+      "target": "dbf8b83a-a180-4206-a07d-e63dc099c421"
+    },
+    {
+      "id": "f3142e4d-c2cd-46ed-883e-7ca4a59cc41b",
+      "type": "istar.AndRefinementLink",
+      "source": "5b388a0f-b13c-4d2c-86bb-6eef8019123b",
+      "target": "dbf8b83a-a180-4206-a07d-e63dc099c421"
+    }
+  ],
+  "display": {},
+  "tool": "pistar.1.2.0",
+  "istar": "2.0",
+  "saveDate": "Sat, 26 May 2018 22:47:55 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

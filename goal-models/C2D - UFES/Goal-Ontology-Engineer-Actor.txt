@@ -1,0 +1,250 @@
+{
+  "actors": [
+    {
+      "id": "f732a1a6-5a65-4674-9405-fc6fe017bd23",
+      "text": "Ontology Engineer/ Ontology Designer",
+      "type": "istar.Actor",
+      "x": 156,
+      "y": 28,
+      "nodes": [
+        {
+          "id": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3",
+          "text": "Create Domain Model",
+          "type": "istar.Task",
+          "x": 440,
+          "y": 165
+        },
+        {
+          "id": "0f73006b-66b7-40f2-b57b-7c0bed7a3c0c",
+          "text": "Establish a shared conce ptualization",
+          "type": "istar.Quality",
+          "x": 347,
+          "y": 70
+        },
+        {
+          "id": "838e6906-15ee-483a-abd5-41e469ad3981",
+          "text": "Greater expre ssiveness of the model",
+          "type": "istar.Quality",
+          "x": 440,
+          "y": 71
+        },
+        {
+          "id": "1e7d415a-da07-4efd-8295-1a74a4323546",
+          "text": "Establish consensus amid experts",
+          "type": "istar.Quality",
+          "x": 534,
+          "y": 71
+        },
+        {
+          "id": "df139c54-65b3-4c53-933b-38d3b42edbf9",
+          "text": "Menthor",
+          "type": "istar.Resource",
+          "x": 626,
+          "y": 164
+        },
+        {
+          "id": "f4878bae-4162-49db-9009-de1b965f9c69",
+          "text": "Domain Model provided",
+          "type": "istar.Goal",
+          "x": 245,
+          "y": 166
+        },
+        {
+          "id": "f7127159-1246-42b3-aa4f-8ea48a91cc60",
+          "text": "Identify main concepts/ relations",
+          "type": "istar.Task",
+          "x": 358,
+          "y": 235,
+          "customProperties": {
+            "heigth200px": "",
+            "Height": "500px",
+            "height": "500px"
+          }
+        },
+        {
+          "id": "d7cfb3db-79bc-401e-882e-76960ded155b",
+          "text": "Organize main concepts/relations",
+          "type": "istar.Task",
+          "x": 459,
+          "y": 234
+        },
+        {
+          "id": "44b19722-9f45-4b2f-b7f8-e97af7d88575",
+          "text": "Competency Questions",
+          "type": "istar.Resource",
+          "x": 305,
+          "y": 301
+        },
+        {
+          "id": "71be48ba-a8c6-4c22-b57e-6a5eb90eb5f6",
+          "text": "Requirements Elicited",
+          "type": "istar.Resource",
+          "x": 415,
+          "y": 302
+        },
+        {
+          "id": "844f7ef5-56d4-4079-b3bc-4b96dea7de54",
+          "text": "Specify constraints/ inferences",
+          "type": "istar.Task",
+          "x": 560,
+          "y": 235
+        },
+        {
+          "id": "a7fdbf73-063e-4bb9-ab6a-8342c4f6e20f",
+          "text": "OCL languages",
+          "type": "istar.Resource",
+          "x": 564,
+          "y": 303
+        },
+        {
+          "id": "5c9cfe27-5338-4510-9b70-ddd05f4ac328",
+          "text": "Operational Ontology provided",
+          "type": "istar.Goal",
+          "x": 234,
+          "y": 355
+        },
+        {
+          "id": "d81764a7-a02d-45c3-8447-ae0823b44260",
+          "text": "Generate OWL",
+          "type": "istar.Task",
+          "x": 623,
+          "y": 353
+        },
+        {
+          "id": "afdc9260-7063-42bb-b47c-99d17b5cfd53",
+          "text": "Higher computational performance",
+          "type": "istar.Quality",
+          "x": 700,
+          "y": 264
+        },
+        {
+          "id": "3d7a9d38-945d-4f71-a548-38b89a1b89f9",
+          "text": "Ontologies Provided",
+          "type": "istar.Goal",
+          "x": 172,
+          "y": 254
+        }
+      ]
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "8f04282b-82de-4bad-a668-5dbed4424c8a",
+      "type": "istar.ContributionLink",
+      "source": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3",
+      "target": "0f73006b-66b7-40f2-b57b-7c0bed7a3c0c",
+      "label": "help"
+    },
+    {
+      "id": "53142c5f-ca86-45ff-aebb-bb69e21784ba",
+      "type": "istar.ContributionLink",
+      "source": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3",
+      "target": "1e7d415a-da07-4efd-8295-1a74a4323546",
+      "label": "help"
+    },
+    {
+      "id": "091c2c02-c2d5-40ef-93c5-a3a6b9d342f7",
+      "type": "istar.NeededByLink",
+      "source": "df139c54-65b3-4c53-933b-38d3b42edbf9",
+      "target": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3"
+    },
+    {
+      "id": "5395bd28-7135-4eb7-a96f-84a223e22624",
+      "type": "istar.NeededByLink",
+      "source": "44b19722-9f45-4b2f-b7f8-e97af7d88575",
+      "target": "f7127159-1246-42b3-aa4f-8ea48a91cc60"
+    },
+    {
+      "id": "cfd230a4-90b4-4a32-8c91-20732d6dff9c",
+      "type": "istar.AndRefinementLink",
+      "source": "f7127159-1246-42b3-aa4f-8ea48a91cc60",
+      "target": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3"
+    },
+    {
+      "id": "ada5227b-a6a5-4fb2-8b3c-05a6dabf23ac",
+      "type": "istar.AndRefinementLink",
+      "source": "d7cfb3db-79bc-401e-882e-76960ded155b",
+      "target": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3"
+    },
+    {
+      "id": "61ff4b4c-012c-4738-be05-411cc3c7ac77",
+      "type": "istar.NeededByLink",
+      "source": "71be48ba-a8c6-4c22-b57e-6a5eb90eb5f6",
+      "target": "f7127159-1246-42b3-aa4f-8ea48a91cc60"
+    },
+    {
+      "id": "26faf13e-49f5-45af-8ebf-a8bdc2aa0cb3",
+      "type": "istar.AndRefinementLink",
+      "source": "844f7ef5-56d4-4079-b3bc-4b96dea7de54",
+      "target": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3"
+    },
+    {
+      "id": "7f2f540e-cdd9-4b17-b452-1e03318dcb2f",
+      "type": "istar.NeededByLink",
+      "source": "a7fdbf73-063e-4bb9-ab6a-8342c4f6e20f",
+      "target": "844f7ef5-56d4-4079-b3bc-4b96dea7de54"
+    },
+    {
+      "id": "dd1496fd-886d-459f-95c7-a9493a3c85cc",
+      "type": "istar.ContributionLink",
+      "source": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3",
+      "target": "838e6906-15ee-483a-abd5-41e469ad3981",
+      "label": "help"
+    },
+    {
+      "id": "4d5b1ded-e397-419e-8896-24f86cd95d95",
+      "type": "istar.OrRefinementLink",
+      "source": "cc3ab6b1-1b71-4c7a-af2a-00b8544027e3",
+      "target": "f4878bae-4162-49db-9009-de1b965f9c69"
+    },
+    {
+      "id": "a1dca098-e1af-47ae-8866-ceb0139b19bf",
+      "type": "istar.OrRefinementLink",
+      "source": "d81764a7-a02d-45c3-8447-ae0823b44260",
+      "target": "5c9cfe27-5338-4510-9b70-ddd05f4ac328"
+    },
+    {
+      "id": "1b21c8a0-6f58-4627-bd3e-f3ef3fed154d",
+      "type": "istar.ContributionLink",
+      "source": "d81764a7-a02d-45c3-8447-ae0823b44260",
+      "target": "afdc9260-7063-42bb-b47c-99d17b5cfd53",
+      "label": "help"
+    },
+    {
+      "id": "6cf82870-e2c5-4b8a-87df-d9c789ba13e7",
+      "type": "istar.NeededByLink",
+      "source": "df139c54-65b3-4c53-933b-38d3b42edbf9",
+      "target": "d81764a7-a02d-45c3-8447-ae0823b44260"
+    },
+    {
+      "id": "83b3272a-58ae-4b38-bc61-b44cfe89039f",
+      "type": "istar.AndRefinementLink",
+      "source": "f4878bae-4162-49db-9009-de1b965f9c69",
+      "target": "3d7a9d38-945d-4f71-a548-38b89a1b89f9"
+    },
+    {
+      "id": "af775903-571c-481e-bb7b-610d4a7f07fe",
+      "type": "istar.AndRefinementLink",
+      "source": "5c9cfe27-5338-4510-9b70-ddd05f4ac328",
+      "target": "3d7a9d38-945d-4f71-a548-38b89a1b89f9"
+    }
+  ],
+  "display": {
+    "091c2c02-c2d5-40ef-93c5-a3a6b9d342f7": {
+      "vertices": [
+        {
+          "x": 603,
+          "y": 183
+        }
+      ]
+    }
+  },
+  "tool": "pistar.1.2.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 21 Aug 2018 02:26:29 GMT",
+  "diagram": {
+    "width": 2200,
+    "height": 2000
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "id": "de8072e1-9f3c-498e-9275-da708ef50967",
+      "text": "",
+      "type": "riskml.Category",
+      "x": 540,
+      "y": 37,
+      "nodes": [
+        {
+          "id": "6592787d-bd02-4f1a-8565-97722bbda8ca",
+          "text": "Use Cool URI",
+          "type": "riskml.Goal",
+          "x": 561,
+          "y": 82
+        },
+        {
+          "id": "8485557c-a5ad-4467-9579-4da11032afd9",
+          "text": "URI in accordance to the best practices is not provided",
+          "type": "riskml.Event",
+          "x": 747,
+          "y": 10
+        },
+        {
+          "id": "f628a883-9c83-4124-98d6-4dcf322bf579",
+          "text": "URI in non-com -pliance with best practices",
+          "type": "riskml.Situation",
+          "x": 1036,
+          "y": 51
+        },
+        {
+          "id": "c1f8ab50-f151-40aa-97c0-fcafe2f8e427",
+          "text": "Access to RDF always available",
+          "type": "riskml.Goal",
+          "x": 565,
+          "y": 195
+        },
+        {
+          "id": "c304f1bb-52df-41da-8890-6c6ab2e59154",
+          "text": "Inaccessible site",
+          "type": "riskml.Event",
+          "x": 749,
+          "y": 145
+        },
+        {
+          "id": "e08db12f-92f3-46b0-9c46-000a1b2f0ba9",
+          "text": "Infrastructure problem",
+          "type": "riskml.Situation",
+          "x": 1035,
+          "y": 179
+        },
+        {
+          "id": "b9de65ef-130c-486c-8c99-014a094ba5fd",
+          "text": "Data updated and accurate",
+          "type": "riskml.Goal",
+          "x": 563,
+          "y": 361
+        },
+        {
+          "id": "cac9b24e-867c-47b9-887e-d4d816c9dd8f",
+          "text": "Data not updated or incorrect",
+          "type": "riskml.Event",
+          "x": 753,
+          "y": 303
+        },
+        {
+          "id": "a5c07b9a-70da-479c-a82f-7572204ed230",
+          "text": "Low validation of data",
+          "type": "riskml.Situation",
+          "x": 1035,
+          "y": 277
+        },
+        {
+          "id": "482bf841-b827-43e6-9f76-2f40cb8acf48",
+          "text": "Wrong data registration",
+          "type": "riskml.Situation",
+          "x": 1035,
+          "y": 396
+        },
+        {
+          "id": "a790ae9e-995b-408a-9953-1012ac01a636",
+          "text": "Encode web information system imple -mentation error",
+          "type": "riskml.Situation",
+          "x": 1036,
+          "y": 497
+        },
+        {
+          "id": "b396bb99-e7be-4cca-b7d2-0fc8a8d539b3",
+          "text": "Unstructured content in RDF",
+          "type": "riskml.Event",
+          "x": 755,
+          "y": 475
+        },
+        {
+          "id": "f5a3b9a7-92ca-4953-8e79-a704690d4b66",
+          "text": "Structured content published",
+          "type": "riskml.Goal",
+          "x": 570,
+          "y": 534
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "37157d9a-6f4a-4e37-8235-1771657f2155",
+      "type": "riskml.ImpactLink",
+      "source": "8485557c-a5ad-4467-9579-4da11032afd9",
+      "target": "6592787d-bd02-4f1a-8565-97722bbda8ca"
+    },
+    {
+      "id": "e8ce0a3c-b49c-4c3f-b641-ac5a797a15b5",
+      "type": "riskml.ExposeLink",
+      "source": "f628a883-9c83-4124-98d6-4dcf322bf579",
+      "target": "8485557c-a5ad-4467-9579-4da11032afd9"
+    },
+    {
+      "id": "7220fd19-9425-4b91-848a-eb0ef69ab543",
+      "type": "riskml.ImpactLink",
+      "source": "c304f1bb-52df-41da-8890-6c6ab2e59154",
+      "target": "c1f8ab50-f151-40aa-97c0-fcafe2f8e427"
+    },
+    {
+      "id": "7cc0eceb-ea90-409f-8fbb-b9b8f204f011",
+      "type": "riskml.ExposeLink",
+      "source": "e08db12f-92f3-46b0-9c46-000a1b2f0ba9",
+      "target": "c304f1bb-52df-41da-8890-6c6ab2e59154"
+    },
+    {
+      "id": "2b08accc-aada-4c7f-804f-87fec97ce614",
+      "type": "riskml.ExposeLink",
+      "source": "a5c07b9a-70da-479c-a82f-7572204ed230",
+      "target": "cac9b24e-867c-47b9-887e-d4d816c9dd8f"
+    },
+    {
+      "id": "511d09ab-5e8e-4b29-bd8a-6eec749bf7e2",
+      "type": "riskml.ExposeLink",
+      "source": "482bf841-b827-43e6-9f76-2f40cb8acf48",
+      "target": "cac9b24e-867c-47b9-887e-d4d816c9dd8f"
+    },
+    {
+      "id": "5005b83c-2f54-4fc0-9f16-76eeb4176ab3",
+      "type": "riskml.ImpactLink",
+      "source": "cac9b24e-867c-47b9-887e-d4d816c9dd8f",
+      "target": "b9de65ef-130c-486c-8c99-014a094ba5fd"
+    },
+    {
+      "id": "7fdca35e-199b-49e0-823d-2351044ff2e0",
+      "type": "riskml.ImpactLink",
+      "source": "b396bb99-e7be-4cca-b7d2-0fc8a8d539b3",
+      "target": "f5a3b9a7-92ca-4953-8e79-a704690d4b66"
+    },
+    {
+      "id": "5c8789c9-5f3b-47e5-ad1d-205fe3179323",
+      "type": "riskml.ExposeLink",
+      "source": "a790ae9e-995b-408a-9953-1012ac01a636",
+      "target": "b396bb99-e7be-4cca-b7d2-0fc8a8d539b3"
+    }
+  ],
+  "display": {},
+  "tool": "riskml.1.0.1",
+  "riskml": "1.0",
+  "saveDate": "Tue, 20 Nov 2018 01:45:48 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

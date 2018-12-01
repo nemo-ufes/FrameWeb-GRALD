@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "id": "4a43ee9c-32a0-4d98-a411-b5139eee1f74",
+      "text": "",
+      "type": "riskml.Category",
+      "x": 396,
+      "y": 3,
+      "nodes": [
+        {
+          "id": "a9cf5372-5acf-491e-b06f-1644e2681b90",
+          "text": "Provide SPARQL Endpoint available",
+          "type": "riskml.Goal",
+          "x": 418,
+          "y": 46
+        },
+        {
+          "id": "75fb6ea7-d623-415b-a81c-51826ca25456",
+          "text": "Provide up-to-date data",
+          "type": "riskml.Goal",
+          "x": 422,
+          "y": 153
+        },
+        {
+          "id": "4b97f555-39d3-4154-84d8-203d4dd0b705",
+          "text": "Provide reliable data",
+          "type": "riskml.Goal",
+          "x": 423,
+          "y": 271
+        },
+        {
+          "id": "10e052f8-8aab-4c50-9fc6-5fb2b45cb768",
+          "text": "SPARQL Endpoint not available",
+          "type": "riskml.Event",
+          "x": 625,
+          "y": -10
+        },
+        {
+          "id": "3626fa86-5c65-4ac1-8888-1fb449a25f98",
+          "text": "Data not updated or incorrect",
+          "type": "riskml.Event",
+          "x": 629,
+          "y": 177
+        },
+        {
+          "id": "eae80178-625d-4791-9f96-18c896f9d697",
+          "text": "Low validaton Data",
+          "type": "riskml.Situation",
+          "x": 899,
+          "y": 219
+        },
+        {
+          "id": "8d2ce3e4-e1cf-4ce3-97f7-0e50ae68e88e",
+          "text": "Infrastructure or network problem.",
+          "type": "riskml.Situation",
+          "x": 894,
+          "y": 25
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "409c292b-a94d-4d93-8881-e16ee0fc7178",
+      "type": "riskml.ImpactLink",
+      "source": "10e052f8-8aab-4c50-9fc6-5fb2b45cb768",
+      "target": "a9cf5372-5acf-491e-b06f-1644e2681b90"
+    },
+    {
+      "id": "89c2b3aa-7479-45d0-933f-0cc4270e5c56",
+      "type": "riskml.ImpactLink",
+      "source": "3626fa86-5c65-4ac1-8888-1fb449a25f98",
+      "target": "75fb6ea7-d623-415b-a81c-51826ca25456"
+    },
+    {
+      "id": "41965a5f-d9fc-488f-ac1c-f40643d47629",
+      "type": "riskml.ImpactLink",
+      "source": "3626fa86-5c65-4ac1-8888-1fb449a25f98",
+      "target": "4b97f555-39d3-4154-84d8-203d4dd0b705"
+    },
+    {
+      "id": "87259d6f-0ebf-4e9d-b420-bd700dfd806a",
+      "type": "riskml.ExposeLink",
+      "source": "eae80178-625d-4791-9f96-18c896f9d697",
+      "target": "3626fa86-5c65-4ac1-8888-1fb449a25f98"
+    },
+    {
+      "id": "28f4928e-b829-4129-8b5b-7f3e47fc11b9",
+      "type": "riskml.ExposeLink",
+      "source": "8d2ce3e4-e1cf-4ce3-97f7-0e50ae68e88e",
+      "target": "10e052f8-8aab-4c50-9fc6-5fb2b45cb768"
+    }
+  ],
+  "display": {},
+  "tool": "riskml.1.0.1",
+  "riskml": "1.0",
+  "saveDate": "Wed, 21 Nov 2018 18:54:28 GMT",
+  "diagram": {
+    "width": 1700,
+    "height": 1300
+  }
+}

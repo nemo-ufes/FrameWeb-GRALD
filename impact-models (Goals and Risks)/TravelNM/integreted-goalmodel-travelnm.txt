@@ -1,0 +1,561 @@
+{
+  "events": [
+    {
+      "id": "82ada092-229f-429a-aaca-219ffd05ae13",
+      "text": "License data not provided",
+      "type": "istar.Event",
+      "x": 520,
+      "y": 588
+    },
+    {
+      "id": "f5dcb5d0-2cb2-434c-8646-4716b30f6d63",
+      "text": "SPARQL Endpoint not available",
+      "type": "istar.Event",
+      "x": 520,
+      "y": -28
+    },
+    {
+      "id": "225eff39-b95f-4615-8296-72614d6e040f",
+      "text": "Data not updated or incorrect",
+      "type": "istar.Event",
+      "x": 245,
+      "y": -29
+    },
+    {
+      "id": "29120812-42b7-468a-bbbe-6375b6452bfc",
+      "text": "License data not provided",
+      "type": "istar.Event",
+      "x": 918,
+      "y": 99
+    }
+  ],
+  "actors": [
+    {
+      "id": "810386c0-f913-4266-bcf0-2ad5066daca3",
+      "text": "TravelNM",
+      "type": "istar.Actor",
+      "x": 161,
+      "y": 95,
+      "nodes": [
+        {
+          "id": "5af8222e-d723-471d-9bd6-d6cd46406031",
+          "text": "Manage customers",
+          "type": "istar.Task",
+          "x": 195,
+          "y": 357
+        },
+        {
+          "id": "09221510-6ad6-45c9-b41a-fa53c5b14a4c",
+          "text": "Manage cities",
+          "type": "istar.Task",
+          "x": 192,
+          "y": 261
+        },
+        {
+          "id": "7af4f1ba-925c-48e7-a9c1-7255f6a7d281",
+          "text": "Cities published in linked data",
+          "type": "istar.Goal",
+          "x": 327,
+          "y": 306
+        },
+        {
+          "id": "3d761a68-cdee-440f-9adb-8f1cea53344a",
+          "text": "Manage packages",
+          "type": "istar.Task",
+          "x": 247,
+          "y": 211
+        },
+        {
+          "id": "9b9c91e8-f448-4833-8e6c-04c9424b143f",
+          "text": "Manage purchased packages",
+          "type": "istar.Task",
+          "x": 194,
+          "y": 416
+        },
+        {
+          "id": "f3d0933d-a61d-4fe8-8e15-822750d87051",
+          "text": "Manage and authenticate users",
+          "type": "istar.Task",
+          "x": 195,
+          "y": 476
+        },
+        {
+          "id": "734c4fa5-2652-4fb4-887e-325997447e9b",
+          "text": "Packages published in linked data",
+          "type": "istar.Goal",
+          "x": 427,
+          "y": 213
+        },
+        {
+          "id": "ecbb629a-7267-4527-b285-b550fc7a32af",
+          "text": "Purchased pack. not pub. in LD",
+          "type": "istar.Goal",
+          "x": 325,
+          "y": 417
+        },
+        {
+          "id": "c3827ace-eb2f-40ab-a488-967235ecee02",
+          "text": "Users not published in linked data",
+          "type": "istar.Goal",
+          "x": 318,
+          "y": 476
+        },
+        {
+          "id": "e6184f8e-82ac-44e2-a625-9496258cb439",
+          "text": "Access security",
+          "type": "istar.Quality",
+          "x": 318,
+          "y": 534
+        },
+        {
+          "id": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8",
+          "text": "Data published in linked data",
+          "type": "istar.Goal",
+          "x": 524,
+          "y": 388
+        },
+        {
+          "id": "d4cec5c4-a5e5-4e13-91ab-b59578f7156b",
+          "text": "Data available for agents",
+          "type": "istar.Quality",
+          "x": 417,
+          "y": 490
+        },
+        {
+          "id": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e",
+          "text": "Generate RDF",
+          "type": "istar.Task",
+          "x": 736,
+          "y": 387
+        },
+        {
+          "id": "07ebd4b9-8bda-474f-9830-f62220366775",
+          "text": "DotNet RDF",
+          "type": "istar.Resource",
+          "x": 738,
+          "y": 461
+        },
+        {
+          "id": "cf7f6f02-4afc-4d80-9ceb-60d2d3ffaf2f",
+          "text": "Customers not published in linked data",
+          "type": "istar.Goal",
+          "x": 327,
+          "y": 360
+        },
+        {
+          "id": "8d7902f0-7373-4e10-9a90-20c8049f59f1",
+          "text": "More expressivity",
+          "type": "istar.Quality",
+          "x": 513,
+          "y": 482
+        },
+        {
+          "id": "0fd0da6f-f4a3-4ffa-9598-025e8acfc1f3",
+          "text": "Encode Web Information System",
+          "type": "istar.Task",
+          "x": 614,
+          "y": 461
+        },
+        {
+          "id": "d0d1e8c4-a209-4f16-9ad8-41963632c773",
+          "text": "Content structured and processed by machines",
+          "type": "istar.Quality",
+          "x": 659,
+          "y": 289
+        },
+        {
+          "id": "9d1881fe-43c7-4d1a-84a8-cd5c44312d71",
+          "text": "Easier access to data",
+          "type": "istar.Quality",
+          "x": 801,
+          "y": 277
+        },
+        {
+          "id": "168248c6-2866-4265-9117-c7dc4b9bb252",
+          "text": "Packages and cities stored in triple store",
+          "type": "istar.Goal",
+          "x": 526,
+          "y": 289
+        },
+        {
+          "id": "04811e7a-952f-44dd-8b19-9b2c6dfd9cb9",
+          "text": "Store data in triple store",
+          "type": "istar.Task",
+          "x": 589,
+          "y": 221
+        },
+        {
+          "id": "68406a7f-0f55-453c-9f0d-0e765c094afe",
+          "text": "Stardog",
+          "type": "istar.Resource",
+          "x": 720,
+          "y": 222
+        },
+        {
+          "id": "8f240598-5fed-4d7b-a029-10aea072c0f6",
+          "text": "Provide data license information",
+          "type": "istar.Task",
+          "x": 597,
+          "y": 535
+        },
+        {
+          "id": "46d922dc-6601-4e3e-a9d9-cc4ac518409e",
+          "text": "License human-readable provided",
+          "type": "istar.Goal",
+          "x": 808,
+          "y": 564
+        },
+        {
+          "id": "d07f1731-c9e5-44ab-a7cc-4441eb59e323",
+          "text": "License machine-readable provided",
+          "type": "istar.Goal",
+          "x": 810,
+          "y": 509
+        },
+        {
+          "id": "7502851d-a682-4c67-8023-21f50ea01417",
+          "text": "Provide SPARQL Endpoint available",
+          "type": "istar.Task",
+          "x": 590,
+          "y": 152
+        },
+        {
+          "id": "1142003e-413e-4504-978e-02067a02a942",
+          "text": "Up-to-date data provided",
+          "type": "istar.Goal",
+          "x": 434,
+          "y": 120
+        },
+        {
+          "id": "5c8a2817-5212-4d57-9f6c-05212fa91f38",
+          "text": "Reliable data provided",
+          "type": "istar.Goal",
+          "x": 436,
+          "y": 166
+        },
+        {
+          "id": "fb44e80d-2270-499a-b663-1086e96493f8",
+          "text": "Provide data license information",
+          "type": "istar.Task",
+          "x": 722,
+          "y": 151
+        },
+        {
+          "id": "5efea780-db0f-4f3f-9aa7-8738110cb4b5",
+          "text": "License machine-readable provided",
+          "type": "istar.Goal",
+          "x": 845,
+          "y": 101
+        },
+        {
+          "id": "0e65792c-d61d-4a41-9c57-42781b8b1de0",
+          "text": "License human-readable provided",
+          "type": "istar.Goal",
+          "x": 847,
+          "y": 191
+        }
+      ]
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "83bf439f-9e2d-4c79-a48b-56e21d938b5a",
+      "type": "istar.OrRefinementLink",
+      "source": "f3d0933d-a61d-4fe8-8e15-822750d87051",
+      "target": "c3827ace-eb2f-40ab-a488-967235ecee02"
+    },
+    {
+      "id": "3bc8ec68-32e8-499f-9752-59994a3a4d3c",
+      "type": "istar.OrRefinementLink",
+      "source": "9b9c91e8-f448-4833-8e6c-04c9424b143f",
+      "target": "ecbb629a-7267-4527-b285-b550fc7a32af"
+    },
+    {
+      "id": "960a47cc-9dcf-46c4-8b2a-fdc869d64121",
+      "type": "istar.OrRefinementLink",
+      "source": "5af8222e-d723-471d-9bd6-d6cd46406031",
+      "target": "cf7f6f02-4afc-4d80-9ceb-60d2d3ffaf2f"
+    },
+    {
+      "id": "0895393d-04fc-4343-9672-f09bfbe13bae",
+      "type": "istar.OrRefinementLink",
+      "source": "3d761a68-cdee-440f-9adb-8f1cea53344a",
+      "target": "734c4fa5-2652-4fb4-887e-325997447e9b"
+    },
+    {
+      "id": "63b750da-e1e2-47fa-8178-caaf86ee241b",
+      "type": "istar.OrRefinementLink",
+      "source": "09221510-6ad6-45c9-b41a-fa53c5b14a4c",
+      "target": "7af4f1ba-925c-48e7-a9c1-7255f6a7d281"
+    },
+    {
+      "id": "fb14ae54-7966-4d47-a88b-e64ed1e8561a",
+      "type": "istar.AndRefinementLink",
+      "source": "3d761a68-cdee-440f-9adb-8f1cea53344a",
+      "target": "168248c6-2866-4265-9117-c7dc4b9bb252"
+    },
+    {
+      "id": "711daf3d-1792-487c-ac49-d638ed9b18de",
+      "type": "istar.AndRefinementLink",
+      "source": "09221510-6ad6-45c9-b41a-fa53c5b14a4c",
+      "target": "168248c6-2866-4265-9117-c7dc4b9bb252"
+    },
+    {
+      "id": "3e180d78-33b1-4a1d-9182-281913790f19",
+      "type": "istar.ContributionLink",
+      "source": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8",
+      "target": "d4cec5c4-a5e5-4e13-91ab-b59578f7156b",
+      "label": "help"
+    },
+    {
+      "id": "d845aac2-8b9f-4233-9471-f3c7d6c48962",
+      "type": "istar.ContributionLink",
+      "source": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8",
+      "target": "8d7902f0-7373-4e10-9a90-20c8049f59f1",
+      "label": "help"
+    },
+    {
+      "id": "20413ac8-7490-43cf-bf67-e3f384387143",
+      "type": "istar.ContributionLink",
+      "source": "f3d0933d-a61d-4fe8-8e15-822750d87051",
+      "target": "e6184f8e-82ac-44e2-a625-9496258cb439",
+      "label": "help"
+    },
+    {
+      "id": "7e00c77f-ece3-47cc-90e9-dc2c01b42707",
+      "type": "istar.AndRefinementLink",
+      "source": "c3827ace-eb2f-40ab-a488-967235ecee02",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "d7da2da6-99c8-4093-bbdd-67221f4fb1fb",
+      "type": "istar.AndRefinementLink",
+      "source": "ecbb629a-7267-4527-b285-b550fc7a32af",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "12c03364-b13d-4fc4-80c7-3ebb3b3f8b74",
+      "type": "istar.AndRefinementLink",
+      "source": "cf7f6f02-4afc-4d80-9ceb-60d2d3ffaf2f",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "80aca315-ba1c-4396-8080-01517264b686",
+      "type": "istar.AndRefinementLink",
+      "source": "7af4f1ba-925c-48e7-a9c1-7255f6a7d281",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "3bcc7152-0dfc-4ad1-b968-718278f3860c",
+      "type": "istar.AndRefinementLink",
+      "source": "168248c6-2866-4265-9117-c7dc4b9bb252",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "3c316f59-04d6-4cc9-94c4-0262063da601",
+      "type": "istar.AndRefinementLink",
+      "source": "734c4fa5-2652-4fb4-887e-325997447e9b",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "a6dd1a94-3fa2-424a-8f0c-c8dd9d3e3e48",
+      "type": "istar.OrRefinementLink",
+      "source": "04811e7a-952f-44dd-8b19-9b2c6dfd9cb9",
+      "target": "168248c6-2866-4265-9117-c7dc4b9bb252"
+    },
+    {
+      "id": "5687de56-d642-4a5d-8c2b-3a5cc378a58d",
+      "type": "istar.NeededByLink",
+      "source": "68406a7f-0f55-453c-9f0d-0e765c094afe",
+      "target": "04811e7a-952f-44dd-8b19-9b2c6dfd9cb9"
+    },
+    {
+      "id": "8ff3b7c0-035b-4459-a113-268d98fcc367",
+      "type": "istar.ContributionLink",
+      "source": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e",
+      "target": "d0d1e8c4-a209-4f16-9ad8-41963632c773",
+      "label": "help"
+    },
+    {
+      "id": "23bcf67b-1f6c-4d08-848b-d7c5e478c7a1",
+      "type": "istar.ContributionLink",
+      "source": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e",
+      "target": "9d1881fe-43c7-4d1a-84a8-cd5c44312d71",
+      "label": "help"
+    },
+    {
+      "id": "ea93e18a-6c03-424e-9beb-67fcc0cad5d6",
+      "type": "istar.NeededByLink",
+      "source": "07ebd4b9-8bda-474f-9830-f62220366775",
+      "target": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e"
+    },
+    {
+      "id": "ca6c82c4-079a-48eb-93de-29e965c7090b",
+      "type": "istar.NeededByLink",
+      "source": "07ebd4b9-8bda-474f-9830-f62220366775",
+      "target": "0fd0da6f-f4a3-4ffa-9598-025e8acfc1f3"
+    },
+    {
+      "id": "30b8f513-57b7-488b-b66c-ee7b4b9380b8",
+      "type": "istar.AndRefinementLink",
+      "source": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "186c99b3-252a-47bd-b026-084889b51319",
+      "type": "istar.AndRefinementLink",
+      "source": "0fd0da6f-f4a3-4ffa-9598-025e8acfc1f3",
+      "target": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8"
+    },
+    {
+      "id": "5d505d15-c071-4459-afb4-0210ae38375a",
+      "type": "istar.AndRefinementLink",
+      "source": "cad4e8bc-0686-41a1-8f14-8a1cefe71cb8",
+      "target": "8f240598-5fed-4d7b-a029-10aea072c0f6"
+    },
+    {
+      "id": "b184f88a-ac87-4879-954c-3551988243f2",
+      "type": "istar.OrRefinementLink",
+      "source": "92649c8c-baf4-4f35-9c9c-1d9faffe8b2e",
+      "target": "d07f1731-c9e5-44ab-a7cc-4441eb59e323"
+    },
+    {
+      "id": "85f9ff99-0c5b-4c33-a807-83e1b34b8a5e",
+      "type": "istar.AndRefinementLink",
+      "source": "8f240598-5fed-4d7b-a029-10aea072c0f6",
+      "target": "d07f1731-c9e5-44ab-a7cc-4441eb59e323"
+    },
+    {
+      "id": "fc6d02b6-359b-468f-89c6-4bfb0879e833",
+      "type": "istar.AndRefinementLink",
+      "source": "8f240598-5fed-4d7b-a029-10aea072c0f6",
+      "target": "46d922dc-6601-4e3e-a9d9-cc4ac518409e"
+    },
+    {
+      "id": "491bb09b-ef2b-4e51-a19f-a27813c522d1",
+      "type": "istar.AndRefinementLink",
+      "source": "7502851d-a682-4c67-8023-21f50ea01417",
+      "target": "1142003e-413e-4504-978e-02067a02a942"
+    },
+    {
+      "id": "3b98b06f-3169-46e0-b738-46bfbe6310e1",
+      "type": "istar.AndRefinementLink",
+      "source": "7502851d-a682-4c67-8023-21f50ea01417",
+      "target": "5c8a2817-5212-4d57-9f6c-05212fa91f38"
+    },
+    {
+      "id": "98b9d040-e06c-4a99-b496-2131a8366a8d",
+      "type": "istar.AndRefinementLink",
+      "source": "04811e7a-952f-44dd-8b19-9b2c6dfd9cb9",
+      "target": "7502851d-a682-4c67-8023-21f50ea01417"
+    },
+    {
+      "id": "49d41668-6869-4b15-a2f7-0d953a166447",
+      "type": "istar.AndRefinementLink",
+      "source": "7502851d-a682-4c67-8023-21f50ea01417",
+      "target": "fb44e80d-2270-499a-b663-1086e96493f8"
+    },
+    {
+      "id": "092372cd-11f5-4970-a177-7ee8ef0609ce",
+      "type": "istar.AndRefinementLink",
+      "source": "fb44e80d-2270-499a-b663-1086e96493f8",
+      "target": "5efea780-db0f-4f3f-9aa7-8738110cb4b5"
+    },
+    {
+      "id": "b8655d73-ae50-47b7-ac9d-e3037c390727",
+      "type": "istar.AndRefinementLink",
+      "source": "fb44e80d-2270-499a-b663-1086e96493f8",
+      "target": "0e65792c-d61d-4a41-9c57-42781b8b1de0"
+    },
+    {
+      "id": "f66dc806-fee9-4411-96bd-a927a250ee35",
+      "type": "istar.ImpactLink",
+      "source": "82ada092-229f-429a-aaca-219ffd05ae13",
+      "target": "8f240598-5fed-4d7b-a029-10aea072c0f6"
+    },
+    {
+      "id": "74f460a2-4ec3-4a75-a6b9-4431acc417b1",
+      "type": "istar.ImpactLink",
+      "source": "82ada092-229f-429a-aaca-219ffd05ae13",
+      "target": "d07f1731-c9e5-44ab-a7cc-4441eb59e323"
+    },
+    {
+      "id": "6709b4ed-da28-4a0d-9d98-ac5c93902def",
+      "type": "istar.ImpactLink",
+      "source": "82ada092-229f-429a-aaca-219ffd05ae13",
+      "target": "46d922dc-6601-4e3e-a9d9-cc4ac518409e"
+    },
+    {
+      "id": "6bbc7d88-ffa4-4d23-bb11-20dbaade2d1a",
+      "type": "istar.ImpactLink",
+      "source": "f5dcb5d0-2cb2-434c-8646-4716b30f6d63",
+      "target": "7502851d-a682-4c67-8023-21f50ea01417"
+    },
+    {
+      "id": "09aa9049-9f1c-4ee6-97eb-5cfd7b52f787",
+      "type": "istar.ImpactLink",
+      "source": "225eff39-b95f-4615-8296-72614d6e040f",
+      "target": "1142003e-413e-4504-978e-02067a02a942"
+    },
+    {
+      "id": "263bc4fd-87e2-4068-961d-e0da27158d0f",
+      "type": "istar.ImpactLink",
+      "source": "225eff39-b95f-4615-8296-72614d6e040f",
+      "target": "5c8a2817-5212-4d57-9f6c-05212fa91f38"
+    },
+    {
+      "id": "1c2cb9e5-3414-4944-8da9-e6a398f2c2b4",
+      "type": "istar.ImpactLink",
+      "source": "29120812-42b7-468a-bbbe-6375b6452bfc",
+      "target": "5efea780-db0f-4f3f-9aa7-8738110cb4b5"
+    },
+    {
+      "id": "8d1ac11a-a2cd-4e47-ba9a-7d1afa4d8a0d",
+      "type": "istar.ImpactLink",
+      "source": "29120812-42b7-468a-bbbe-6375b6452bfc",
+      "target": "0e65792c-d61d-4a41-9c57-42781b8b1de0"
+    }
+  ],
+  "display": {
+    "74f460a2-4ec3-4a75-a6b9-4431acc417b1": {
+      "vertices": [
+        {
+          "x": 736,
+          "y": 580
+        }
+      ]
+    },
+    "6709b4ed-da28-4a0d-9d98-ac5c93902def": {
+      "vertices": [
+        {
+          "x": 778,
+          "y": 648
+        }
+      ]
+    },
+    "09aa9049-9f1c-4ee6-97eb-5cfd7b52f787": {
+      "vertices": [
+        {
+          "x": 466,
+          "y": 67
+        }
+      ]
+    },
+    "263bc4fd-87e2-4068-961d-e0da27158d0f": {
+      "vertices": [
+        {
+          "x": 389,
+          "y": 132
+        }
+      ]
+    }
+  },
+  "tool": "pistar.1.0.1",
+  "istar": "2.0",
+  "saveDate": "Mon, 24 Sep 2018 01:19:17 GMT",
+  "diagram": {
+    "width": 2200,
+    "height": 2000
+  }
+}
